@@ -1,6 +1,7 @@
 TOP_LOCAL_PATH := $(call my-dir)
 BOOST_LIBS_ROOT := /home/izak/random/boost/libs
 CRYPTOPP_LIB_ROOT := /home/izak/random/nano-node/crypto/cryptopp
+BLAKE2_LIB_ROOT := /home/izak/random/nano-node/crypto/blake2
 
 BOOST_INCLUDE_PATH := \
 ${BOOST_LIBS_ROOT}/geometry/include \
