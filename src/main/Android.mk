@@ -7,6 +7,7 @@ LOCAL_SRC_FILES:= compute.c
 #LOCAL_SRC_FILES:= thread.cpp
 #LOCAL_STATIC_LIBRARIES:= libboost_thread
 #LOCAL_STATIC_LIBRARIES:= libcryptopp
-LOCAL_STATIC_LIBRARIES:= libblake2
+#LOCAL_STATIC_LIBRARIES:= libblake2
+LOCAL_STATIC_LIBRARIES:= libargon2
 
 include $(BUILD_EXECUTABLE)
