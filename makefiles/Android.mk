@@ -6,6 +6,11 @@ BLAKE2_LIB_ROOT := /home/izak/random/nano-node/crypto/blake2
 ARGON2_LIB_ROOT := /home/izak/random/nano-node/crypto/phc-winner-argon2
 LMDB_LIB_ROOT := /home/izak/random/nano-node/lmdb/libraries/liblmdb
 
+##
+NANONODE_ROOT := /home/izak/random/nano-node
+NANOCRYPTO_LIB_ROOT := /home/izak/random/nano-node/nano/crypto_lib
+
+
 BOOST_INCLUDE_PATH := \
 ${BOOST_LIBS_ROOT}/geometry/include \
 ${BOOST_LIBS_ROOT}/poly_collection/include \
