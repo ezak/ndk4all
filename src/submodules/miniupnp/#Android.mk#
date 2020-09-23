@@ -1,0 +1,9 @@
+LOCAL_PATH:= $(call my-dir)
+include $($CLEAR_VARS)
+
+LOCAL_MODULE:= miniupnp
+LOCAL_MODULE_FILENAME:= libminiupnp
+
+#LOCAL_C_INCLUDES:= \o
+
+include $(BUILD_STATIC_LIBRARY)
