@@ -1,0 +1,16 @@
+LOCAL_PATH:= $(call my-dir)
+include $($CLEAR_VARS)
+
+LOCAL_MODULE:= ed25519
+LOCAL_MODULE_FILENAME:= libed25519
+
+LOCAL_C_INCLUDES:= \
+${ED25519_LIB_ROOT}/ed25519-donna-portable.h \
+${ED25519_LIB_ROOT}/ed25519-hash-custom.h \
+${ED25519_LIB_ROOT}/ed25519-randombytes-custom.h \
+${ED25519_LIB_ROOT}/ed25519.h \
+
+LOCAL_SRC_FILES := \
+${ED25519_LIB_ROOT}/ed25519.c \
+
+include $(BUILD_STATIC_LIBRARY)

@@ -4,6 +4,8 @@ BOOST_LIBS_ROOT := /home/izak/random/boost/libs
 CRYPTOPP_LIB_ROOT := /home/izak/random/nano-node/crypto/cryptopp
 BLAKE2_LIB_ROOT := /home/izak/random/nano-node/crypto/blake2
 ARGON2_LIB_ROOT := /home/izak/random/nano-node/crypto/phc-winner-argon2
+ED25519_LIB_ROOT := /home/izak/random/nano-node/crypto/ed25519-donna
+
 LMDB_LIB_ROOT := /home/izak/random/nano-node/lmdb/libraries/liblmdb
 
 ##
