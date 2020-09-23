@@ -7,11 +7,15 @@ ARGON2_LIB_ROOT := /home/izak/random/nano-node/crypto/phc-winner-argon2
 ED25519_LIB_ROOT := /home/izak/random/nano-node/crypto/ed25519-donna
 LMDB_LIB_ROOT := /home/izak/random/nano-node/lmdb/libraries/liblmdb
 FLATBUFFERS_LIB_ROOT := /home/izak/random/nano-node/flatbuffers
-
+CPPTOML_INCLUDE := /home/izak/random/nano-node/cpptoml/include
 ##
 NANONODE_ROOT := /home/izak/random/nano-node
+NANO_ROOT := /home/izak/random/nano-node/nano
 NANOCRYPTO_LIB_ROOT := /home/izak/random/nano-node/nano/crypto_lib
+NANO_LIB_ROOT := /home/izak/random/nano-node/nano/lib
 
+
+FLATBUFFERS_INCLUDE := ${FLATBUFFERS_LIB_ROOT}/include
 
 BOOST_INCLUDE_PATH := \
 ${BOOST_LIBS_ROOT}/geometry/include \
